@@ -37,6 +37,6 @@ async (conn, mek, m, { from, args, isCreator, reply }) => {
 
     } catch (e) {
         console.error(e);
-        await reply("❌ Error updating auto-react setting: " + e.message);
+        await reply("⛔ Error updating auto-react setting: " + e.message);
     }
 });
