@@ -6,7 +6,7 @@ cmd(
     alias: ["invite", "addmember", "a", "summon"],
     desc: "Adds a person to group",
     category: "group",
-    react: "👤",
+    react: "🧑‍🦱",
     filename: __filename,
   },
   async (conn, mek, m, { from, quoted, args, reply, isGroup, isBotAdmins, isCreator }) => {
