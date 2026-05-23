@@ -95,7 +95,7 @@ cmd({
     const mode = config.ANTI_LINK_MODE;
     const user = sender.split("@")[0];
 
-    // 🟡 WARN
+    // ⛔ WARN
     if (mode === "warn") {
       return await conn.sendMessage(from, {
         text: `⚠️ Warning @${user}\nLinks are not allowed in this group.`,
