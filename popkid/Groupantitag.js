@@ -14,7 +14,7 @@ cmd({
     filename: __filename
 }, async (conn, mek, m, { from, isGroup, isAdmins, isOwner, args, reply }) => {
     try {
-        if (!isGroup) return reply("❌ *Popkid, this is for groups only!*");
+        if (!isGroup) return reply("❌ *𒋲⍟ᬼ⃟M💀⃝⃪U⛓ST۞༒A༒ FF⛓⍟ᬼ⃟A𒋲, this is for groups only!*");
         if (!isAdmins && !isOwner) return reply("❌ *Admin or Owner access required.*");
 
         let settings = JSON.parse(fs.readFileSync(dataPath));
@@ -33,7 +33,7 @@ cmd({
             return reply("❌ *Antitag Disabled.*");
         }
 
-        reply(`🛡️ *Popkid-MD Antitag Settings*\n\nUsage: .antitag [on/off] [delete/warn/kick]`);
+        reply(`🛡️ *𒋲⍟ᬼ⃟M💀⃝⃪U⛓ST۞༒A༒ FF⛓⍟ᬼ⃟A𒋲⍟ᬼ⃟MD💀⃝⃪V2🕷️™ Antitag Settings*\n\nUsage: .antitag [on/off] [delete/warn/kick]`);
     } catch (err) {
         reply("❌ Error updating settings.");
     }
