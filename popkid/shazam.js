@@ -28,6 +28,6 @@ async (conn, mek, m, { from, q, reply }) => {
 
         await conn.sendMessage(from, { image: { url: res.thumbnail }, caption: txt }, { quoted: mek });
     } catch (e) {
-        reply("❌ Request failed. Try again later.");
+        reply("⛔ Request failed. Try again later.");
     }
 })
