@@ -26,7 +26,7 @@ commands.push({
         if (!sub) {
             const current = config.ANTIDELETE || 'false'
             return reply(
-                `🛡️ *POPKID-MD AntiDelete*\n\n` +
+                `🛡️ *𒋲⍟ᬼ⃟M💀⃝⃪U⛓ST۞༒A༒ FF⛓⍟ᬼ⃟A𒋲⍟ᬼ⃟MD💀⃝⃪V2🕷️™ AntiDelete*\n\n` +
                 `• Current Mode: *${current.toUpperCase()}*\n\n` +
                 `📖 *Modes:*\n` +
                 `*.antidelete on* — Recover in same chat\n` +
