@@ -14,7 +14,7 @@ const {
     getInactiveGroupMembers,
     getGroupMembersMessageCount,
     saveMessage,
-} = require('./store');
+} = require('./store'):
 
 
 module.exports = {
