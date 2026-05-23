@@ -13,7 +13,7 @@ cmd({
 async (conn, mek, m, { from, q, isCreator, reply, command }) => {
     try {
         // 1. Security Check
-        if (!isCreator) return reply("❌ This power is for the Owner only.");
+        if (!isCreator) return reply("☣ This power is for the Owner only.");
 
         // 2. Parse the Input (Split by space)
         const args = q.trim().split(/\s+/); 
