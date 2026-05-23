@@ -2,7 +2,7 @@ const { cmd } = require('../command');
 
 cmd({
     pattern: "tagadmins",
-    react: "👮",
+    react: "😎",
     aliases: ["taggcadmins", "taggroupadmins"],
     category: "group",
     desc: "Tag all group admins with optional message", // changed 'description' to 'desc' to match your bot's style
