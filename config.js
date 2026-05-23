@@ -9,7 +9,7 @@ module.exports = {
     // ==========================================
     // 🔑 SESSION & AUTH
     // ==========================================
-    SESSION_ID: process.env.SESSION_ID || "POPKID;;;HcURgQQT#el1w53_DkYDDW13cEvqw0q80vHfOfnyZO_cyAL0mAUU",
+    SESSION_ID: process.env.SESSION_ID || "MUSTAFFA;;;HcURgQQT#el1w53_DkYDDW13cEvqw0q80vHfOfnyZO_cyAL0mAUU",
     
     // ==========================================
     // 🚀 STATUS SETTINGS (Optimized for Speed)
@@ -17,7 +17,7 @@ module.exports = {
     AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
     AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
     AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",
-    AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*𝐏𝐎𝐏𝐊𝐈𝐃 𝐌𝐃 𝐕𝐈𝐄𝐖𝐄𝐃✅*",
+    AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*𒋲⍟ᬼ⃟M💀⃝⃪U⛓ST۞༒A༒ FF⛓⍟ᬼ⃟A𒋲 𝐕𝐈𝐄𝐖𝐄𝐃✅*",
     CUSTOM_STATUS_EMOJIS: process.env.CUSTOM_STATUS_EMOJIS || "❤️,✨,🔥,💯,👑,🥰,😇,🧡",
 
     // ==========================================
@@ -37,20 +37,20 @@ module.exports = {
     // ==========================================
     PREFIX: process.env.PREFIX || ".",
     MODE: process.env.MODE || "public",
-    BOT_NAME: process.env.BOT_NAME || "𝐏𝐎𝐏𝐊𝐈𝐃 𝐌𝐃",
-    OWNER_NAME: process.env.OWNER_NAME || "𝐏𝐎𝐏𝐊𝐈𝐃",
-    OWNER_NUMBER: process.env.OWNER_NUMBER || "254732297194",
-    DEV: process.env.DEV || "254732297194",
+    BOT_NAME: process.env.BOT_NAME || "𒋲⍟ᬼ⃟M💀⃝⃪U⛓ST۞༒A༒ FF⛓⍟ᬼ⃟A𒋲⍟ᬼ⃟MD💀⃝⃪V2🕷️™",
+    OWNER_NAME: process.env.OWNER_NAME || "𒋲⍟ᬼ⃟M💀⃝⃪U⛓ST۞༒A༒ FF⛓⍟ᬼ⃟A𒋲",
+    OWNER_NUMBER: process.env.OWNER_NUMBER || "254758755663",
+    DEV: process.env.DEV || "254758755663",
     
     // ==========================================
     // 🎨 UI & AUTOMATION
     // ==========================================
     AUTO_BIO: process.env.AUTO_BIO || "true",
     TIME_ZONE: process.env.TIME_ZONE || "Africa/Nairobi", 
-    MENU_IMAGE_URL: process.env.MENU_IMAGE_URL || "https://files.catbox.moe/aapw1p.png",
+    MENU_IMAGE_URL: process.env.MENU_IMAGE_URL || "https://files.catbox.moe/ux2l8q.jpg",
     ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/aapw1p.png",
-    DESCRIPTION: process.env.DESCRIPTION || "*𝙿𝙾𝙿𝙺𝙸𝙳 𝚇𝙼𝙳 𝙱𝙾𝚃😇*",
-    LIVE_MSG: process.env.LIVE_MSG || "> 𝐏𝐎𝐏𝐊𝐈𝐃 𝐌𝐃 𝐁𝐎𝐓😇",
+    DESCRIPTION: process.env.DESCRIPTION || "*𒋲⍟ᬼ⃟M💀⃝⃪U⛓ST۞༒A༒ FF⛓⍟ᬼ⃟A𒋲⍟ᬼ⃟MD💀⃝⃪V2🕷️™ 𝙱𝙾𝚃😇*",
+    LIVE_MSG: process.env.LIVE_MSG || "> 𒋲⍟ᬼ⃟M💀⃝⃪U⛓ST۞༒A༒ FF⛓⍟ᬼ⃟A𒋲⍟ᬼ⃟MD💀⃝⃪V2🕷️™ 𝐁𝐎𝐓😇",
     AUTO_TYPING: process.env.AUTO_TYPING || "true",
     AUTO_RECORDING: process.env.AUTO_RECORDING || "false",
     
