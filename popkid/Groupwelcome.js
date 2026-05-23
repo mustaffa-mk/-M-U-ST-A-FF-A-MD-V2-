@@ -32,7 +32,7 @@ cmd({
         }
     } catch (e) {
         console.error(e);
-        reply("⚠️ Error updating Welcome status.");
+        reply("❗ Error updating Welcome status.");
     }
 });
 
