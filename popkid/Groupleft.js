@@ -10,7 +10,7 @@ cmd({
     filename: __filename
 }, async (conn, mek, m, { from, isGroup, pushname, isCreator, reply }) => {
     try {
-        if (!isCreator) return reply("⚠️ Access Denied. Only my Creator can use this command.");
+        if (!isCreator) return reply("🔚 Access Denied. Only my Creator can use this command.");
         if (!isGroup) return reply("❌ This command can only be used in groups.");
 
         await conn.sendMessage(from, { text: `✔️ Leaving group as requested by ${pushname}` }, { quoted: mek });
