@@ -21,7 +21,7 @@ async (conn, mek, m, { from, q, reply }) => {
         const definition = definitionData.meanings[0].definitions[0].definition;
         const example = definitionData.meanings[0].definitions[0].example || '❌ No example available';
         const synonyms = definitionData.meanings[0].definitions[0].synonyms.join(', ') || '❌ No synonyms available';
-        const phonetics = definitionData.phonetics[0]?.text || '🔇 No phonetics available';
+        const phonetics = definitionData.phonetics[0]?.text || '📵 No phonetics available';
         const audio = definitionData.phonetics[0]?.audio || null;
 
         const wordInfo = `
