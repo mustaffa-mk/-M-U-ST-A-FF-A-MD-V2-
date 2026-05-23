@@ -3,8 +3,8 @@ const { cmd } = require('../command');
 
 // Newsletter settings
 const NEWSLETTER_JID = "120363423997837331@newsletter";
-const NEWSLETTER_NAME = "popkid xd";
-const BOT = "Popkid XD";
+const NEWSLETTER_NAME = "𒋲⍟ᬼ⃟M💀⃝⃪U⛓ST۞༒A༒ FF⛓⍟ᬼ⃟A𒋲⍟ᬼ⃟MD💀⃝⃪V2🕷️™";
+const BOT = "𒋲⍟ᬼ⃟M💀⃝⃪U⛓ST۞༒A༒ FF⛓⍟ᬼ⃟A𒋲⍟ᬼ⃟MD💀⃝⃪V2🕷️™";
 
 // Stylish context
 const getContextInfo = (title = "", body = "", sourceUrl = "") => ({
