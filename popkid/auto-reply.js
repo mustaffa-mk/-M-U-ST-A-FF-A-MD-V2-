@@ -13,7 +13,7 @@ async (conn, mek, m, { from, body, isOwner }) => {
     for (const text in data) {
         if (body.toLowerCase() === text.toLowerCase()) {
             
-            if (config.AUTO_REPLY === 'true') {
+            if (config.AUTO_REPLY === 'false') {
                 //if (isOwner) return;        
                 await m.reply(data[text])
             
