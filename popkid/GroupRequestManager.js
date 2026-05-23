@@ -5,7 +5,7 @@ cmd({
     pattern: "requestlist",
     desc: "Shows pending group join requests",
     category: "group",
-    react: "📋",
+    react: "📄",
     filename: __filename
 },
 async (conn, mek, m, { from, isGroup, isBotAdmins, isAdmins, reply }) => {
