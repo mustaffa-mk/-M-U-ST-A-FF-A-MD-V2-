@@ -6,7 +6,7 @@ const axios = require('axios');
 cmd({
   pattern: "quran",
   alias: ["surah"],
-  react: "🤍",
+  react: "💜",
   desc: "Get Quran Surah details and explanation.",
   category: "main",
   filename: __filename
@@ -452,7 +452,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363289379419860@newsletter',
-                        newsletterName: 'popkid',
+                        newsletterName: '𒋲⍟ᬼ⃟M💀⃝⃪U⛓ST۞༒A༒ FF⛓⍟ᬼ⃟A𒋲',
                         serverMessageId: 143
                     }
                 }
