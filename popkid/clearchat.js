@@ -81,7 +81,7 @@ cmd({
 
     // DM check
     if (!isGroup && !isOwner && !mek.key.fromMe) {
-      return reply("❌ Only the bot owner can clear DM chats.");
+      return reply("🗡 Only the bot owner can clear DM chats.");
     }
 
     // Resync app state to fix missing keys error
