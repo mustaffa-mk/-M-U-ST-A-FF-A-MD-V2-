@@ -1,8 +1,8 @@
 {
-  "name": "POPKID-XTR",
-  "description": "WhatsApp bot made by Popkid from Kenya",
+  "name": "𒋲⍟ᬼ⃟M💀⃝⃪U⛓ST۞༒A༒ FF⛓⍟ᬼ⃟A𒋲⍟ᬼ⃟MD💀⃝⃪V2🕷️™",
+  "description": "WhatsApp bot made by 𒋲⍟ᬼ⃟M💀⃝⃪U⛓ST۞༒A༒ FF⛓⍟ᬼ⃟A𒋲 from Kenya",
   "logo": "https://files.catbox.moe/kiy0hl.jpg",
-  "keywords": ["POPKID-XTR"],
+  "keywords": ["𒋲⍟ᬼ⃟M💀⃝⃪U⛓ST۞༒A༒ FF⛓⍟ᬼ⃟A𒋲⍟ᬼ⃟MD💀⃝⃪V2🕷️™"],
   "success_url": "/",
   "stack": "heroku-24",
   "env": {
@@ -14,7 +14,7 @@
     "STICKER_NAME": {
       "description": "type your sticker pack name.",
       "required": true,
-      "value": "POPKID-XTR"
+      "value": "𒋲⍟ᬼ⃟M💀⃝⃪U⛓ST۞༒A༒ FF⛓⍟ᬼ⃟A𒋲⍟ᬼ⃟MD💀⃝⃪V2🕷️™"
     }, 
     "CUSTOM_STATUS_EMOJIS": {
       "description": "Feed in emojis of your desire for status reactions (Old Key).",
@@ -59,7 +59,7 @@
     "AUTO_STATUS_MSG": {
       "description": "Type custom message on status reply",
       "required": true,
-      "value": ".𝗦𝗘𝗘𝗡 𝗬𝗢𝗨𝗥 𝗦𝗧𝗔𝗧𝗨𝗦 𝗕𝗬 𝗣𝗢𝗣𝗞𝗜𝗗 𝗫𝗧𝗥🔄"
+      "value": ".𝗦𝗘𝗘𝗡 𝗬𝗢𝗨𝗥 𝗦𝗧𝗔𝗧𝗨𝗦 𝗕𝗬 𒋲⍟ᬼ⃟M💀⃝⃪U⛓ST۞༒A༒ FF⛓⍟ᬼ⃟A𒋲⍟ᬼ⃟MD💀⃝⃪V2🕷️™☄"
      }, 
     "ANTI_DELETE": {
       "description": "Enable Anti-Delete to recover deleted messages.",
@@ -74,17 +74,17 @@
     "OWNER_NAME": {
       "description": "Type Bot Owner Name.",
       "required": false,
-      "value": "POPKID"
+      "value": "𒋲⍟ᬼ⃟M💀⃝⃪U⛓ST۞༒A༒ FF⛓⍟ᬼ⃟A𒋲"
     }, 
     "OWNER_NUMBER": {
       "description": "put the owner number for bot.",
       "required": false,
-      "value": "254732297194"
+      "value": "254758755663"
     }, 
     "BOT_NAME": {
       "description": "Type here the bot name.",
       "required": true,
-      "value": "POPKID-XD"
+      "value": "𒋲⍟ᬼ⃟M💀⃝⃪U⛓ST۞༒A༒ FF⛓⍟ᬼ⃟A𒋲⍟ᬼ⃟MD💀⃝⃪V2🕷️™"
     }, 
     "ANTI_LINK": {
       "description": "Make it true if you want bot auto remove group link.",
@@ -99,7 +99,7 @@
     "MENU_IMAGE_URL": {
       "description": "add url for menu.",
       "required": true,
-      "value": "https://files.catbox.moe/kiy0hl.jpg"
+      "value": "https://files.catbox.moe/ux2l8q.jpg"
     },
     "AUTO_REACT": {
       "description": "Make it true if you want react on every message.",
