@@ -9,7 +9,7 @@ cmd({
     on: "body"
 },    
 async (conn, mek, m, { from, body, isOwner }) => {
-    if (config.AUTO_TYPING === 'true') {
+    if (config.AUTO_TYPING === 'false') {
         await conn.sendPresenceUpdate('composing', from); // send typing 
     }
 });
