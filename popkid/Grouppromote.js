@@ -3,7 +3,7 @@ const { cmd } = require('../command')
 cmd({
     pattern: "promote",
     alias: ["addadmin"],
-    react: "⬆️",
+    react: "🔝",
     desc: "Promote a member to admin",
     category: "group",
     filename: __filename
