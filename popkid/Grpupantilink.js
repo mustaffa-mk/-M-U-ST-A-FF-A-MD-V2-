@@ -22,7 +22,7 @@ cmd({
     }
     if (type === "off") {
         config.ANTILINK = "false";
-        await conn.sendMessage(from, { react: { text: "🔓", key: mek.key } });
+        await conn.sendMessage(from, { react: { text: "🦿", key: mek.key } });
         return reply("🔓 Antilink is now *OFF*.");
     }
 
