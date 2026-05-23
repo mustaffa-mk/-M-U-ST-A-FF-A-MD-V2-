@@ -3,7 +3,7 @@ const { cmd } = require('../command')
 cmd({
     pattern: "demote",
     alias: ["removeadmin"],
-    react: "⬇️",
+    react: "🗡",
     desc: "Demote an admin to member",
     category: "group",
     filename: __filename
