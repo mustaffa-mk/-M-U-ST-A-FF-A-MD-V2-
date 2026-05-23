@@ -4,7 +4,7 @@ FROM node:lts-buster
 RUN git clone https://github.com/popkidc/POPKID-XD.git /root/popkid-md-bot
 
 # Set working directory
-WORKDIR /root/popkid-md-bot
+WORKDIR /root/mustaffa-md-v2-bot
 
 # Install dependencies
 RUN npm install && npm install -g pm2
