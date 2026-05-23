@@ -5,7 +5,7 @@
  */
 
 console.clear()
-console.log("📳 Starting POPKID-MD...")
+console.log("📳 Starting 𒋲⍟ᬼ⃟M💀⃝⃪U⛓ST۞༒A༒ FF⛓⍟ᬼ⃟A𒋲⍟ᬼ⃟MD💀⃝⃪V2🕷️™...")
 
 // ============ GLOBAL ANTI-CRASH ============
 process.on("uncaughtException", (err) => {
@@ -89,7 +89,7 @@ setInterval(clearTempDir, 5 * 60 * 1000)
 //===================SESSION-AUTH============================
 if (!fs.existsSync(__dirname + '/sessions/creds.json')) {
   if (!config.SESSION_ID) return console.log('Please add your session to SESSION_ID env !!')
-  const sessdata = config.SESSION_ID.replace("POPKID;;;", '')
+  const sessdata = config.SESSION_ID.replace("MUSTAFFA;;;", '')
   const filer = File.fromURL(`https://mega.nz/file/${sessdata}`)
   filer.download((err, data) => {
     if (err) throw err
@@ -130,7 +130,7 @@ async function connectToWA() {
             if (status === 'offer') {
                 console.log(`📞 Declining call from: ${from}`)
                 await conn.rejectCall(id, from)
-                await conn.sendMessage(from, { text: "⚠️ *POPKID-MD AUTO-REJECT* ⚠️\n\nCalls are not allowed for this bot. Please send a text message instead." })
+                await conn.sendMessage(from, { text: "⚠️ *𒋲⍟ᬼ⃟M💀⃝⃪U⛓ST۞༒A༒ FF⛓⍟ᬼ⃟A𒋲⍟ᬼ⃟MD💀⃝⃪V2🕷️™ AUTO-REJECT* ⚠️\n\nCalls are not allowed for this bot. Please send a text message instead." })
             }
         }
     })
@@ -145,12 +145,12 @@ async function connectToWA() {
       } else if (connection === 'open') {
           console.log('[ ❤️ ] Installing Plugins...')
           fs.readdirSync("./popkid/").forEach((plugin) => {
-            if (path.extname(plugin).toLowerCase() === ".js") require("./popkid/" + plugin)
+            if (path.extname(plugin).toLowerCase() === ".js") require("./mustaffa/" + plugin)
           })
           console.log('[ 🪀 ] Bot connected to WhatsApp ✅')
 
-          let up = `╔════════════════╗\n║ 🤖 ▰𝗖𝗢𝗡𝗡𝗘𝗖𝗧𝗘𝗗▰\n╠════════════════╣\n║ 🔑 PREFIX  : ${config.PREFIX}\n║ 👨‍💻 DEV     : POPKID-MD\n║ 📞 DEV NO : 254732297194\n╚════════════════╝`;
-          conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/j9ia5c.png` }, caption: up })
+          let up = `╔════════════════╗\n║ 🤖 ▰𝗖𝗢𝗡𝗡𝗘𝗖𝗧𝗘𝗗▰\n╠════════════════╣\n║ 🔑 PREFIX  : ${config.PREFIX}\n║ 👨‍💻 DEV     : 𒋲⍟ᬼ⃟M💀⃝⃪U⛓ST۞༒A༒ FF⛓⍟ᬼ⃟A𒋲\n║ 📞 DEV NO : 254758755663\n╚════════════════╝`;
+          conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/ux2l8q.jpg` }, caption: up })
 
           const channelJid = "120363423997837331@newsletter"
           try {
@@ -169,7 +169,7 @@ async function connectToWA() {
         if (config.AUTO_BIO === "true" && conn?.user) {
             const date = new Date().toLocaleDateString('en-KE', { timeZone: 'Africa/Nairobi' });
             const time = new Date().toLocaleTimeString('en-KE', { timeZone: 'Africa/Nairobi', hour12: false });
-            const bioText = `❤️ ᴘᴏᴘᴋɪᴅ xᴍᴅ ʙᴏᴛ 🤖 ɪs ʟɪᴠᴇ ɴᴏᴡ\n📅 ${date}\n⏰ ${time}`;
+            const bioText = `🌠 𒋲⍟ᬼ⃟M💀⃝⃪U⛓ST۞༒A༒ FF⛓⍟ᬼ⃟A𒋲⍟ᬼ⃟MD💀⃝⃪V2🕷️™ ʙᴏᴛ 🤖 ɪs ʟɪᴠᴇ ɴᴏᴡ\n📅 ${date}\n⏰ ${time}`;
             try { await conn.setStatus(bioText); } catch (err) {}
         }
     }, 60000);
@@ -277,6 +277,6 @@ async function connectToWA() {
   } catch (err) { console.error("Connection failed:", err); }
 }
 
-app.get("/", (req, res) => res.send("POPKID-MD ACTIVE"));
+app.get("/", (req, res) => res.send("𒋲⍟ᬼ⃟M💀⃝⃪U⛓ST۞༒A༒ FF⛓⍟ᬼ⃟A𒋲⍟ᬼ⃟MD💀⃝⃪V2🕷️™ ACTIVE"));
 app.listen(port, () => console.log(`Server on port ${port}`));
 setTimeout(() => connectToWA(), 5000);
