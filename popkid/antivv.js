@@ -17,7 +17,7 @@ cmd({
 
         return reply(`👁️ *ANTI VIEWONCE SETTINGS*
 
-Status: ${global.ANTI_VIEWONCE ? "✅ ON" : "❌ OFF"}
+Status: ${global.ANTI_VIEWONCE ? "🔛 ON" : "⛔ OFF"}
 
 Usage:
 .antiviewonce on
