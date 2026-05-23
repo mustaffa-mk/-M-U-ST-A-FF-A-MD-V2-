@@ -10,7 +10,7 @@ cmd({
     filename: __filename
 }, async (conn, mek, m, { from, reply, quoted, isOwner }) => {
     try {
-        if (!isOwner) return reply("❌ This is an owner-only command");
+        if (!isOwner) return reply("🗡 This is an owner-only command");
         if (!quoted) return reply("❌ Please reply to the message you want to delete");
 
         let successCount = 0;
