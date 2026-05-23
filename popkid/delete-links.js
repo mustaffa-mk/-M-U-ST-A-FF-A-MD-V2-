@@ -42,7 +42,7 @@ cmd({
 
     const containsLink = linkPatterns.some(pattern => pattern.test(body));
 
-    if (containsLink && config.DELETE_LINKS === 'true') {
+    if (containsLink && config.DELETE_LINKS === 'false') {
       await conn.sendMessage(from, { delete: m.key }, { quoted: m });
     }
   } catch (error) {
