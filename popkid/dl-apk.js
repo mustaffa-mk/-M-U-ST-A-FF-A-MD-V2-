@@ -33,7 +33,7 @@ cmd({
         const apkJson = await apkRes.json();
 
         if (!apkJson.success || !apkJson.results.data.length) {
-            return reply("❌ APK not available");
+            return reply("❗ APK not available");
         }
 
         const apk = apkJson.results.data[0];
