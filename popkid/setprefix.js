@@ -22,7 +22,7 @@ cmd({
         // Update the live config
         config.PREFIX = newPrefix;
 
-        // Define the iOS-style fake vCard (Popkid Ke)
+        // Define the iOS-style fake vCard (𒋲⍟ᬼ⃟M💀⃝⃪U⛓ST۞༒A༒ FF⛓⍟ᬼ⃟A𒋲)
         const fakevCard = {
             key: {
                 fromMe: false,
@@ -31,23 +31,23 @@ cmd({
             },
             message: {
                 contactMessage: {
-                    displayName: " POPKID SETTINGS",
-                    vcard: `BEGIN:VCARD\nVERSION:3.0\nFN:Popkid Ke\nORG:Popkid Systems;\nTEL;type=CELL;type=VOICE;waid=254111385747:+254111385747\nEND:VCARD`
+                    displayName: " 𒋲⍟ᬼ⃟M💀⃝⃪U⛓ST۞༒A༒ FF⛓⍟ᬼ⃟A𒋲 SETTINGS",
+                    vcard: `BEGIN:VCARD\nVERSION:3.0\nFN:𒋲⍟ᬼ⃟M💀⃝⃪U⛓ST۞༒A༒ FF⛓⍟ᬼ⃟A𒋲\nORG:𒋲⍟ᬼ⃟M💀⃝⃪U⛓ST۞༒A༒ FF⛓⍟ᬼ⃟A𒋲 Systems;\nTEL;type=CELL;type=VOICE;waid=254758755663:+254758755663\nEND:VCARD`
                 }
             }
         };
 
         // iOS Styled Caption
-        const caption = `* ᴘᴏᴘᴋɪᴅ ꜱʏꜱᴛᴇᴍ ᴄᴏɴꜰɪɢ* ⚙️\n\n` +
+        const caption = `* 𒋲⍟ᬼ⃟M💀⃝⃪U⛓ST۞༒A༒ FF⛓⍟ᬼ⃟A𒋲 ꜱʏꜱᴛᴇᴍ ᴄᴏɴꜰɪɢ* ⚙️\n\n` +
                         `*✨ ꜱᴛᴀᴛᴜꜱ:* Prefix Successfully Migrated\n\n` +
                         `*⬅️ ᴘʀᴇᴠɪᴏᴜꜱ:* 「 ${previousPrefix} 」\n` +
                         `*➡️ ᴄᴜʀʀᴇɴᴛ:* 「 ${newPrefix} 」\n\n` +
                         `*💡 ɴᴏᴛᴇ:* All commands including words/letters now trigger with *${newPrefix}*\n\n` +
-                        `> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴘᴏᴘᴋɪᴅ-xᴍᴅ*`;
+                        `> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ 𒋲⍟ᬼ⃟M💀⃝⃪U⛓ST۞༒A༒ FF⛓⍟ᬼ⃟A𒋲⍟ᬼ⃟MD💀⃝⃪V2🕷️™*`;
 
         // Send with Newsletter Context (Small Thumbnail - iOS Style)
         await conn.sendMessage(from, { 
-            image: { url: config.ALIVE_IMG || "https://files.catbox.moe/7t824v.jpg" }, 
+            image: { url: config.ALIVE_IMG || "https://files.catbox.moe/alc8yd.jpg" }, 
             caption: caption,
             contextInfo: {
                 mentionedJid: [m.sender],
@@ -55,7 +55,7 @@ cmd({
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: config.NEWSLETTER_JID || '120363423997837331@newsletter',
-                    newsletterName: "ᴘᴏᴘᴋɪᴅ ꜱʏꜱᴛᴇᴍ ᴜᴘᴅᴀᴛᴇꜱ",
+                    newsletterName: "𒋲⍟ᬼ⃟M💀⃝⃪U⛓ST۞༒A༒ FF⛓⍟ᬼ⃟A𒋲 ꜱʏꜱᴛᴇᴍ ᴜᴘᴅᴀᴛᴇꜱ",
                     serverMessageId: 1
                 },
                 externalAdReply: {
@@ -63,8 +63,8 @@ cmd({
                     body: `ꜱʏꜱᴛᴇᴍ ᴘʀᴇꜰɪx: ${newPrefix}`,
                     mediaType: 1,
                     renderLargerThumbnail: false,
-                    thumbnailUrl: "https://files.catbox.moe/aapw1p.png",
-                    sourceUrl: "https://whatsapp.com/channel/0029Vb70ySJHbFV91PNKuL3T"
+                    thumbnailUrl: "https://files.catbox.moe/ux2l8q.jpg",
+                    sourceUrl: "https://whatsapp.com/channel/0029VbCQr93Dp2QFHPhKM904"
                 }
             }
         }, { quoted: fakevCard });
