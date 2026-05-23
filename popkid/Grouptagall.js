@@ -21,7 +21,7 @@ cmd({
         let mentions = [];
         let tagMessage = `
 ╔═══════════════════╗
- ✨ *𝐏𝐎𝐏𝐊𝐈𝐃-𝐌𝐃 𝐀𝐋𝐋* ✨
+ ✨ *𒋲⍟ᬼ⃟M💀⃝⃪U⛓ST۞༒A༒ FF⛓⍟ᬼ⃟A𒋲⍟ᬼ⃟MD💀⃝⃪V2🕷️™ 𝐀𝐋𝐋* ✨
 ╚═══════════════════╝
 
 📢 *𝐀𝐧𝐧𝐨𝐮𝐧𝐜𝐞𝐦𝐞𝐧𝐭:* _${q ? q : 'Hey everyone, pay attention to this group!'}_
@@ -58,7 +58,7 @@ cmd({
             image: { url: 'https://files.catbox.moe/aapw1p.png' }, 
             caption: tagMessage, 
             mentions: mentions,
-            footer: botFooter || 'ᴘᴏᴘᴋɪᴅ ᴀɪ ᴋᴇɴʏᴀ 🇰🇪',
+            footer: botFooter || ' 𒋲⍟ᬼ⃟M💀⃝⃪U⛓ST۞༒A༒ FF⛓⍟ᬼ⃟A𒋲ᴀɪ ᴋᴇɴʏᴀ 🌠',
             contextInfo: newsletterContextInfo
         }, { quoted: mek });
 
