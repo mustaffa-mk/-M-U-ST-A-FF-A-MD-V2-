@@ -31,7 +31,7 @@ cmd({ on: "body" }, async (client, message, chat, { from, body, isGroup, isCmd }
       }
     }
   } catch (error) {
-    console.error("❌ Chatbot Error:", error);
+    console.error("❗ Chatbot Error:", error);
     await client.sendMessage(from, { text: `⚠️ Chatbot error: ${error.message}` }, { quoted: message });
   }
 });
